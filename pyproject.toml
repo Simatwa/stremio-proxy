@@ -1,0 +1,11 @@
+[project]
+name = "stremio-proxy"
+version = "0.1.0"
+description = "Lightweight proxy for Stremio's web version"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.141.1",
+]
+[tool.fastapi]
+entrypoint = "main:app"
